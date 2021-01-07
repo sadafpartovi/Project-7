@@ -127,10 +127,11 @@ h2 {
     width: 90%;
     border-radius: 5px;
 	text-align: center;
-	margin: 0 auto;
+	margin: 2em auto;
     padding: 5px 0;
     font-size: 1em;
     height: 50px;
+   
 
 }
 
@@ -193,10 +194,27 @@ canvas #daily-chart {
     margin-left: 3em;
 
 }
-.widget-container-half,
-.widget-container-full{
-	width: 70vw;
+.widget-container-half {
+    width: 70vw;
+    margin-left: 4em;
+    
 }
+
+.widget-container-full {
+    width: 90vw;
+    margin-left: 2em;
+
+}
+
+
+
+.pie-chart {
+    margin-bottom: 2em;
+ 
+
+}
+
+
 
 /* <!-- Daily Traffic and Mobile Users --> */
 
@@ -210,6 +228,11 @@ h3 {
 
 }
 
+.mobile-pie {
+    margin-left: 200px;
+
+}
+
 
 
 /* Social STATS */
@@ -220,8 +243,8 @@ h3 {
     width: 30px;
     height: 30px;
     background-color: #9370DB;
-    border-radius: 30%;
-    padding: 10px;
+    border-radius: 50%;
+    padding: 1.5em;
     margin-top: 20px;
     margin-left: 20px;
 
@@ -391,8 +414,7 @@ textarea {
     white-space: nowrap;
     color: #707070;
     font-size:16px;
-    
-    margin-left: 20px;
+ margin-left: 20px;
 
 }
 
@@ -831,14 +853,30 @@ flex-basis: 50%;
     display: none;
 }
 
+.stg-txt,
+.switch-stg {
+    margin-left: 2em;
+}
+
+
 
 /* Charts */
 
 .widget-container-full {
     width: 90vw;
-    }
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 .widget-container-half {
-    width: 45vw;
+    width: 40vw;
+    margin-left: 2em;
+}
+
+.pie-chart {
+    margin-bottom: 2em;
+}
+  
+
 }
 
 
