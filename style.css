@@ -240,15 +240,18 @@ h3 {
 .twitter,
 .facebook,
 .google {
-    width: 30px;
-    height: 30px;
+    width: 2em;
+    height: 2em;
     background-color: #9370DB;
     border-radius: 50%;
     padding: 1.5em;
     margin-top: 20px;
     margin-left: 20px;
-
 }
+
+
+
+
 .twitter-section,
 .facebook-section,
 .google-section {
@@ -326,20 +329,29 @@ margin-top: 0;
     white-space: nowrap;
     
 }
-.date {
+.date,
+.time-hour {
      margin-left: 55px;
-   
     color: #707070;
-    display: inline-block;
-
+    display: block;
+    
 }
+
+/* .date {
+
+    float: right;
+} */
+
+
 
 .background {
     margin-bottom: 10px;
     margin-left: 20px;
 }
 
-
+.greater {
+    display: none;
+}
 
 
 /* RECENT AVTIVITY */
@@ -414,7 +426,7 @@ textarea {
     white-space: nowrap;
     color: #707070;
     font-size:16px;
- margin-left: 20px;
+     margin-left: 20px;
 
 }
 
@@ -781,6 +793,14 @@ h2 {
 
 /* new member and recent activity */
 
+
+.date {
+    float: right;
+    margin-right: 2em;
+    display: inline-block;
+}
+
+
 .member {
     display: flex;
     border-bottom: solid 1px lightgray;
@@ -825,6 +845,22 @@ flex-basis: 50%;
     margin-right: .7em;
 }
 
+.time-hour{
+    display: inline-block;
+
+}
+.greater{
+
+display: inline-block;
+float: right;
+margin-right: 2em;
+font-size: 1.5em;
+color: #9370DB;
+display: inline-block;
+
+}
+
+
 
 /* msg user / Setting */
 
@@ -842,7 +878,10 @@ flex-basis: 50%;
 .msg-section,
 .setting-section {
    flex-basis: 50%;
+   
 }
+
+
 
 .msg-section {
     border-right: solid 1px lightgray;
@@ -856,6 +895,40 @@ flex-basis: 50%;
 .stg-txt,
 .switch-stg {
     margin-left: 2em;
+}
+
+
+.switch-stg{
+margin-left: -10em;
+
+}
+.switch-2{
+    margin-left: -8.5em;
+    
+}
+
+.select-menu select {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-left: -1em;
+}
+
+
+.btn-container{
+display: inline;
+
+}
+.btn-container button {
+    width: 40%;
+    display: inline;
+    margin-top: .5em;
+}
+
+.cancel-button {
+    float: right;
+
+
 }
 
 
