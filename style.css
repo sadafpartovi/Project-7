@@ -124,7 +124,7 @@ h2 {
 .alert {
     background: #9370DB;
     color: white;
-    width: 90%;
+    width: 90vw;
     border-radius: 5px;
 	text-align: center;
 	margin: 2em auto;
@@ -262,7 +262,8 @@ h3 {
     padding: 10px;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;  
+    justify-content: flex-start;
+    margin: 0 2em;  
 }
 
 .twitter-txt,
@@ -339,10 +340,7 @@ margin-top: 0;
     
 }
 
-/* .date {
 
-    float: right;
-} */
 
 
 
@@ -382,13 +380,13 @@ margin-top: 0;
 .user-search {
     align-items: center;
     margin-bottom: 25px;
-    margin-left: 40px;
+    margin-left: 2em;
     border-color: lightgray;
    
 }
 .user-search input,
 textarea {
-    width: 22em;
+    width: 90vw;
     border-radius: 5px;
     border: 1px solid #ccc;
 
@@ -397,7 +395,7 @@ textarea {
 textarea {
     height: 100px;
     margin-bottom: 25px;
-    margin-left: 40px;
+    margin-left: 2em;
     border-color: lightgray
 }
 
@@ -407,8 +405,8 @@ textarea {
     border: none;
     border-radius: 5px;
     margin-bottom: 25px;
-    margin-left: 40px;
-    width: 20em;
+    margin-left: 2em;
+    width: 92vw;
     padding: 10px;
     font-size: 15px;
 
@@ -518,15 +516,17 @@ textarea {
 
 
     .select-menu select {
-        width: 22em;
+        width: 94vw;
         border-radius: 5px;
         border: 1px solid #ccc;
+        margin-left: -1em;
         
     }
     .select-menu {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 2em;
+        /* margin-right: 40px; */
         margin-bottom: 20px;
+       
     }
 
 
@@ -538,7 +538,7 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     font-size: 15px;
-    width: 10em;
+    width: 100%;
    
     
     
@@ -548,7 +548,7 @@ textarea {
        display: grid;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr;
-       grid-gap: 3.5em;
+       grid-gap: 30%;
        margin-bottom: 30px;
        
        
@@ -557,15 +557,15 @@ textarea {
    }
 
    .cancel-button {
-    margin-right: 2em;
+    margin-right: 1em;
     margin-bottom: 2em;
-    margin-left: -2em;
+    /* margin-left: -2em; */
     
 
    }
 
    .save-button {
-    margin-left: 2em;
+    margin-left: 1em;
     margin-bottom: 2em;
 
    }
@@ -654,39 +654,36 @@ textarea {
 
 
     /* DASHBOARD and SEARCH bar */
-    .dashboardSearch {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-gap: 10em;
-        margin-left: -20em;
-        align-items: center; 
-
-}
+  
 
 
 h2 {
     font-size: 17px;
-   margin-left: 20em;
+    margin-left: 3%;
+    display: inline-block;
+
    
 }
 
 .search input {
     width: 20em;
     margin-top: 1em;
-    margin-left: 52em;
+    margin-right: 2%;
+    float: right;
     height: 30px;
 
     
     
 }
 .search {
-    width: 1000px;
+  
     height: 40px;
     padding: 20px;
     margin-top: .001em;
-    border-bottom: solid 1px lightgray;
-    border-left: solid 1px lightgray;
+    /* border-bottom: solid 1px lightgray;
+    border-left: solid 1px lightgray; */
+    display: inline;
+   
    
 
     
@@ -694,12 +691,12 @@ h2 {
 
 /* Daily Traffic and Mobile Users  */
 .traffic-header {
-    grid-gap: 55em;
+   justify-content: space-between;
 
 }
 
 .traffic-txt {
-    margin-left: 3em; 
+    margin-left: 3%; 
 
 }
 
@@ -713,6 +710,11 @@ h2 {
     border-bottom: solid 1px lightgray;
     
     margin-left: .6em;
+
+ }
+
+ .traffic-nav ul {
+    margin-right: 2%;
 
  }
 
@@ -730,7 +732,7 @@ h2 {
 
 
 .social-title {
-    margin-left: 60px;
+    margin-left: 3%;
 
 }
 
@@ -738,10 +740,10 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-gap: 40px;
+    grid-gap: 3%;
     
-    margin-left: 40px;
-    margin-right: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
     align-items: center;
     justify-content: center;
   
@@ -770,12 +772,14 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .twitter-txt,
 .facebook-txt,
 .google-txt {
-    margin-left: 20px;  
+    margin-left: 10%;  
     
 
 
@@ -798,8 +802,10 @@ h2 {
 
 .date {
     float: right;
-    margin-right: 2em;
+    margin-right: 2%;
     display: inline-block;
+    margin-top: 0;
+    
 }
 
 
@@ -849,6 +855,8 @@ flex-basis: 50%;
 
 .time-hour{
     display: inline-block;
+    margin-bottom: 9px;
+    margin-top: 0;
 
 }
 .greater{
@@ -859,6 +867,7 @@ margin-right: 2em;
 font-size: 1.5em;
 color: #9370DB;
 display: inline-block;
+margin-top: -2%;
 
 }
 
@@ -866,16 +875,30 @@ display: inline-block;
 
 /* msg user / Setting */
 
+.message-user{
+    margin-left: 5%;
+}
+
 .msg-stg-container {
     display: flex;
     
 
 }
 
-.user-search input,
+
 .user-msg textarea,
 .msg-section button {
     width: 90%;
+    margin-left: 5%;
+    
+    
+}
+
+.user-search input {
+    width: 98%;
+    margin-left: -3%;
+    
+
 }
 .msg-section,
 .setting-section {
@@ -942,6 +965,9 @@ display: inline;
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+
+
 .widget-container-half {
     width: 40vw;
     margin-left: 2em;
