@@ -23,6 +23,7 @@ header {
     grid-template-rows: 1fr;
     grid-gap: 300px 5px;
     padding-right: 30px;
+    padding-left: 15px;
 }
 
 .youApp {
@@ -77,8 +78,8 @@ header {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding-right: 30px;
-    padding-left: 15px;
+    padding-right: 22.5px;
+    padding-left: 22.5px;
     
 
 }
@@ -94,11 +95,17 @@ header {
 
 /* DASHBOARD and SEARCH bar */
 
+
+
 h2 {
     font-size: 30px;
     font-weight: lighter;
     color: #707070;
     text-align: center;
+    margin-left: 5%;
+ 
+   
+   
    
 
 }
@@ -108,6 +115,7 @@ h2 {
     border-radius: 5px;
     border: 1px solid #ccc;
     padding: 3px;
+    margin-left: 3em;
     
     
   
@@ -125,13 +133,14 @@ h2 {
 .alert {
     background: #9370DB;
     color: white;
-    width: 90vw;
+    width: 90%;
     border-radius: 5px;
 	text-align: center;
-	margin: 2em auto;
-    padding: 5px 0;
+	margin-left: 2em;
+    padding: 5px 5px;
     font-size: 1em;
     height: 50px;
+    padding-bottom: 1em;
    
 
 }
@@ -140,8 +149,8 @@ h2 {
 	display: block;
 	font-size: 1em;
     float: right;
-    margin-top: -3em;
-    margin-right: 1em;
+    margin-top: -4em;
+    margin-right: .5em;
     cursor: pointer;
     
 }
@@ -587,15 +596,11 @@ textarea {
     .big-grid-container {
         display: grid;
         height: 100vh;
-        
-       
         margin: 0 auto;
         grid-template-columns: 80px 1fr;
         grid-template-rows: 50px  110 1fr;
-        grid-row-gap: px;
-        grid-column-gap: 20px;
         
-    
+        grid-column-gap: 20px;
         grid-template-areas:
         "header header" 
         "nav main"
@@ -636,6 +641,7 @@ textarea {
      /* SIDE NAV */
 
     .side-nav {
+    width: 50px;
     background-color: #32174d;
     display: grid;
     grid-template-columns: 50px;
@@ -649,7 +655,7 @@ textarea {
     .side-nav img {
     height: 20em;
     width: 2em;
-    margin-left: 1em;
+    margin-left: .5em;
     margin-top: 5em;
 
     }
@@ -682,14 +688,25 @@ h2 {
     height: 40px;
     padding: 20px;
     margin-top: .001em;
-    /* border-bottom: solid 1px lightgray;
-    border-left: solid 1px lightgray; */
+   
     display: inline;
    
    
 
     
 } 
+
+.alert{
+    margin-top: 1em;
+    width: 90vw;
+    margin-left: 3%;
+}
+
+.alert-banner-close {
+    margin-top: -40px;
+}
+
+
 
 /* Daily Traffic and Mobile Users  */
 .traffic-header {
